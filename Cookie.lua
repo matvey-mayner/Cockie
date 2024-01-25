@@ -1,4 +1,6 @@
 local shell = require("shell")
+local term = require("term")
+local event = require("event")
 
 if command == "COOCKIE" then
   shell.execute("Coockie.lua")
