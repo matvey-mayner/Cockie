@@ -1,6 +1,8 @@
 local shell = require("shell")
 local term = require("term")
 local event = require("event")
+local computer = require("computer")
+local gpu = component.gpu
 
 if command == "COOCKIE" then
   shell.execute("Coockie.lua")
